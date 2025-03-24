@@ -1,0 +1,17 @@
+
+// index.js - Entry point
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+// Import fonts - you would add these in index.html or here
+// Import boxicons
+import 'boxicons/css/boxicons.min.css';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
